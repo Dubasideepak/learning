@@ -1,5 +1,5 @@
   comments are two types:
-  
+
 1.Single line comment: 
 
   A Single line comment is denoted by using '//'.
@@ -18,5 +18,6 @@
  let variable = 10; 
  console.log(variable);
  */
+  Anything between '/*9999*/' won't be executed by the javascript. 
 
 
