@@ -66,5 +66,24 @@ Q) Write JavaScript function that finds the largest among three numbers and prin
 }
  const result = sumOfEvenNumbers();
  console.log(result);
-
+/*
+ Q) Implement a JS program that prints a right angled triangle pattern using asterisks(*) based on a given number of rows.
+ ex input:4
+ expected op:*
+            **
+            ***
+            ****
+hint: Use nested for loops to control the pattern
+*/
+ function printRightAngleTriangle(rows){
+     for(let i = 1; i <= rows; i++){
+        let pattern = '*';
+        for(let j = 1; j <=i; j++){
+            pattern +='*';
+        }
+        console.log(pattern);
+     }
+ }
+ const numberOfRows =4;
+ printRightAngleTriangle(numberOfRows);
 
