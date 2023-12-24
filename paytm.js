@@ -50,4 +50,4 @@ var app = {
 }
 
 
-console.log(app.paytmOffers[2])
+console.log(app.paytmOffers[1])
